@@ -1,0 +1,126 @@
+#mainbox h4
+{
+	background: #bcd2f5;
+	color: #0a1526;
+	font-size: 25px;
+	font-family: system-ui;
+}
+#mainbox h4 span
+{
+	font-size: 15px;
+}
+#mainbox table, th, td
+{
+	border: 2px solid black;
+}
+#mainbox table
+{
+	width: 70%;
+	border-collapse: collapse;
+}
+#mainbox th,td
+{
+	height: 35px;
+	font-size: 20px;
+	vertical-align: middle;
+	padding: 10px;
+}
+#mainbox td
+{
+	padding-left: 35px;
+	width: 60%;
+}
+#mainbox tr
+{
+	background-color: #f3f5c4;
+	color: #0a1526;
+}
+#mainbox tr:hover 
+{
+	background-color: #f7b5b0;
+}
+#mainbox .button
+{
+	border: none;
+  	padding: 12px 35px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin-top: 20px;
+  	margin-right: 35px;
+  	cursor: pointer;
+  	background-color: white;
+  	color: black;
+  	border: 2px solid #4CAF50;
+  	font-family: system-ui;
+}
+#mainbox .button:hover
+{
+	background-color: #4CAF50;
+  	color: white;
+}
+#mainbox .button:focus
+{
+	outline: none;
+}
+#mainbox select
+{
+	width:166px;
+	color: black;
+	font-size: 15px;
+}
+
+#mainbox select:focus
+{
+	background-color: #d9e6fe;
+}
+#mainbox input[type="date"]
+{
+	width: 160px;
+	font-size: 15px;
+	color: black;
+}
+#mainbox input[type="date"]:focus
+{
+	background-color: #d9e6fe;
+}
+#mainbox #msg
+{
+	font-size: 18px;
+	font-family: system-ui;
+	color: #5b0e2d;
+}
+#mainbox #msg11
+{
+	font-size: 18px;
+	font-family: system-ui;
+	color: #5b0e2d;
+	margin-top: 30px;
+}
+#mainbox #left11
+{
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+#mainbox #nodatasales
+{
+	background: skyblue;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: right;
+	margin-right: 25px;
+}
+#mainbox b
+{
+	background: #f7dec3;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: left;
+	margin-left: 240px;
+	margin-bottom: 20px;
+	padding: 4px 3px 4px 3px;
+}

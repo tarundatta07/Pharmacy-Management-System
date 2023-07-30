@@ -1,0 +1,106 @@
+#mainbox h4
+{
+	background: #bcd2f5;
+	color: #0a1526;
+	font-size: 25px;
+	font-family: system-ui;
+}
+#mainbox table, th, td
+{
+	border: 2px solid black;
+}
+#mainbox table
+{
+	width: 80%;
+	border-collapse: collapse;
+}
+#mainbox th,td
+{
+	height: 35px;
+	font-size: 20px;
+	vertical-align: middle;
+	padding: 10px;
+}
+#mainbox td
+{
+	padding-left: 15px;
+}
+#mainbox tr
+{
+	background-color: #f3f5c4;
+	color: #0a1526;
+}
+#mainbox tr:hover 
+{
+	background-color: #f7b5b0;
+}
+#mainbox #top
+{
+	background: #ffdab9;
+	color: #5b0e2d;
+	font-size: 20px;
+	font-family: system-ui;
+	margin-left: 20px;
+	margin-top: 110px;
+	font-weight: 600;
+	padding: 2px 8px 2px 8px;
+}
+#mainbox select
+{
+	width: 145px;
+	color: black;
+	font-size: 15px;
+}
+#mainbox select:focus
+{
+	background-color: #d9e6fe;
+}
+#mainbox #quantity
+{
+	width: 35px;
+}
+#mainbox #unit_price, #cost
+{
+	width: 65px;
+}
+#mainbox .button
+{
+	border: none;
+  	padding: 12px 35px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin-top: 20px;
+  	margin-right: 35px;
+  	cursor: pointer;
+  	background-color: white;
+  	color: black;
+  	border: 2px solid #4CAF50;
+  	font-family: system-ui;
+}
+#mainbox .button:hover
+{
+	background-color: #4CAF50;
+  	color: white;
+}
+#mainbox .button:focus
+{
+	outline: none;
+}
+#mainbox #nodatasales
+{
+	background: #ffd4d4;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	padding: 2px 1px 2px 1px;
+	margin-left: 450px;
+}
+#mainbox #nodata
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+}

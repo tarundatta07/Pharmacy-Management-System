@@ -1,0 +1,287 @@
+#mainbox h4
+{
+	background: #bcd2f5;
+	color: #0a1526;
+	font-size: 25px;
+	font-family: system-ui;
+}
+#mainbox h4 span
+{
+	font-size: 15px;
+}
+#mainbox b
+{
+	background: #f7dec3;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding: 4px 2px 2px 4px;
+}
+#mainbox table, th, td
+{
+	border: 2px solid black;
+}
+#mainbox table
+{
+	width: 96%;
+	border-collapse: collapse;
+}
+#mainbox th,td
+{
+	height: 35px;
+	font-size: 20px;
+	vertical-align: middle;
+	padding: 10px;
+}
+#mainbox td
+{
+	padding-left: 15px;
+}
+#mainbox tr
+{
+	background-color: #f3f5c4;
+	color: #0a1526;
+}
+#mainbox tr:hover 
+{
+	background-color: #f7b5b0;
+}
+#mainbox .button
+{
+	border: none;
+  	padding: 12px 35px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin-top: 20px;
+  	margin-right: 35px;
+  	cursor: pointer;
+  	background-color: white;
+  	color: black;
+  	border: 2px solid #4CAF50;
+  	font-family: system-ui;
+}
+#mainbox .button:hover
+{
+	background-color: #4CAF50;
+  	color: white;
+}
+#mainbox .button:focus
+{
+	outline: none;
+}
+#mainbox table a
+{
+	cursor: pointer;
+}
+#mainbox #nodata
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: left;
+	margin-left: 220px;
+}
+#mainbox #nodatasales11
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: left;
+	margin-left: 300px;
+}
+#mainbox #nodatastocks
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 335px;
+}
+#mainbox #nodatacashier
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 380px;
+}
+#mainbox #nodataphar
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 365px;
+}
+#mainbox #nodataman
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 372px;
+}
+#mainbox #nodatasales
+{
+	background: skyblue;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: right;
+	margin-right: 25px;
+}
+#mainbox #nodatabill
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 300px;
+}
+#mainbox .pay
+{
+	border: none;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin-left: 20px;
+  	cursor: pointer;
+  	background-color: white;
+  	color: black;
+  	border: 2px solid #9e4246;
+  	font-family: system-ui;
+}
+#mainbox .pay:hover
+{
+	background-color: #ff5540;
+  	color: white;
+}
+#mainbox .pay:focus
+{
+	outline: none;
+}
+
+#tablinks
+{
+	width: 100%;
+}
+#tablinks #saleslabel
+{
+	margin-right: 25px;
+}
+#tablinks .link, .mlink
+{
+	background-color: #436a94;
+  	color: white;
+  	float: left;
+  	border: none;
+  	outline: none;
+  	cursor: pointer;
+  	transition: 0.15s;
+  	padding-top: 7px;
+  	padding-bottom: 6px;
+  	font-size: 17px;
+  	width: 15%;
+}
+#tablinks .mlink
+{
+	width: 14%;
+}
+#tablinks .link:hover, .mlink:hover
+{
+	background-color: #ffcccc;
+	color: black;
+	border: 1px solid black;
+}
+#tablinks .link:focus, .mlink:focus
+{
+	outline: none;
+}
+
+#mainbox #srlabel
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	float: left;
+	margin-left: 15px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.bar-container 
+{
+    width: 100%;
+}
+.bar-content 
+{
+    width: 100%;
+    float: left;
+}
+.bar-title
+{
+	height: 38px;
+	width: 19%;
+	float: left;
+	text-align: left;
+	background: #d3edec;
+	color: #121212;
+	font-size: 22px;
+	padding-left: 25px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-family: serif;
+	margin-bottom: 15px;
+  	overflow: hidden;
+}
+#bar
+{
+	max-width: 76%;
+	min-width: 9%;
+	width: 20%;
+	height: 37px;
+	float: left;
+	border-bottom: 2px solid black;
+	/*background: #facd96;*/
+	background: #ffc885;
+	color: #FE4400;
+	font-size: 19px;
+	font-family: system-ui;
+	font-weight: 600;
+	padding-top: 8px;
+	padding-right: 10px;
+	text-align: right;
+}
+#bar123
+{
+	max-width: 76%;
+	min-width: 9%;
+	width: 20%;
+	height: 37px;
+	float: left;
+	border-bottom: 2px solid black;
+	background: #93a4ed;
+	color: #08004f;
+	font-size: 19px;
+	font-family: system-ui;
+	font-weight: 600;
+	padding-top: 8px;
+	padding-right: 10px;
+	text-align: right;
+}
+@keyframes fade
+{
+	from
+	{
+		width: 0;
+	}
+}

@@ -1,0 +1,104 @@
+#mainbox h4
+{
+	background: #bcd2f5;
+	color: #0a1526;
+	font-size: 25px;
+	font-family: system-ui;
+}
+#mainbox span
+{ 
+	color: #04006b;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+#mainbox input[type=text]
+{
+	padding: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 16px;
+	width: 220px;
+	border-radius: 20px;
+	border: 2px solid #ff5757;
+	background: #ffdbdb;
+}
+#mainbox input[type=text]:focus
+{
+	outline: none;
+}
+#mainbox button
+{
+	height: 34px;
+	width: 40px;
+	border: 2px solid #846bff;
+	border-radius: 8px;
+	cursor: pointer;
+}
+#mainbox button:hover
+{
+	background: #a1d5f7;
+}
+#mainbox button:focus
+{
+	outline: none;
+}
+
+#mainbox table, th, td
+{
+	border: 2px solid black;
+}
+#mainbox table
+{
+	width: 90%;
+	border-collapse: collapse;
+}
+#mainbox th,td
+{
+	height: 35px;
+	font-size: 20px;
+	vertical-align: middle;
+	padding: 10px;
+}
+#mainbox td
+{
+	padding-left: 15px;
+}
+#mainbox tr
+{
+	background-color: #f3f5c4;
+	color: #0a1526;
+}
+#mainbox tr:hover 
+{
+	background-color: #f7b5b0;
+}
+
+#mainbox #nodatasearch
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin-left: 25px;
+}
+#mainbox #top
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 20px;
+	font-family: system-ui;
+	margin-left: 20px;
+	margin-top: 110px;
+	font-weight: 600;
+}
+#mainbox select
+{
+	width: 145px;
+	color: black;
+	font-size: 15px;
+}
+
+#mainbox select:focus
+{
+	background-color: #d9e6fe;
+}

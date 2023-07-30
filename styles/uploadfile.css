@@ -1,0 +1,103 @@
+#mainbox .filebox
+{
+	font-size: 16px;
+	background: #ffedef;
+	border-radius: 30px;
+	width: 360px;
+	cursor: pointer;
+	border: 1px solid black;
+	outline: none;
+}
+::-webkit-file-upload-button
+{
+	color: white;
+	padding: 15px 18px 12px 18px;
+	border: none;
+	cursor: pointer;
+	border-radius: 22px;
+	outline: none;
+	background: #ff2121;
+}
+::-webkit-file-upload-button:hover
+{
+	background: #2f65bd;
+}
+::-webkit-file-upload-button:focus
+{
+	outline: none;
+}
+#mainbox .resetbutton
+{
+	height: 38px;
+	width: 44px;
+	background: #ffe0e0;
+	border: 2px solid #ff2929;
+	border-radius: 8px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#mainbox .resetbutton:hover
+{
+	background: #ff9191;
+}
+#mainbox .resetbutton:focus
+{
+	outline: none;
+}
+#mainbox #nodatafile
+{
+	background: #c7ecff;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-left: 250px;
+	margin-top: 2px;
+}
+#mainbox #note
+{
+	background: #f7dec3;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin: 0px;
+	padding: 4px 3px 4px 3px;
+	float: left;
+	margin-left: 25px;
+}
+#mainbox #points
+{
+	background: #c7ecff;
+	color: #b00000;
+	font-size: 19px;
+	font-family: system-ui;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-left: 25px;
+	text-align: left;
+	padding-top: 3px;
+	width: 97%;
+}
+#mainbox #title1
+{
+	background: #f7dec3;
+	color: #5b0e2d;
+	font-size: 18px;
+	font-family: system-ui;
+	margin: 0px;
+	padding: 3px 20px 4px 23px;
+	float: left;
+	margin-left: 255px;
+	border: 1px solid #382511;
+	border-radius: 20px;
+}
+#mainbox span
+{ 
+	color: #04006b;
+	font-size: 23px;
+	font-family: sans-serif;
+	vertical-align: middle;
+}

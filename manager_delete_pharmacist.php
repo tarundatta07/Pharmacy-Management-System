@@ -1,0 +1,52 @@
+		<!-- PHP CODE STARTS FROM HERE -->
+<?php
+		session_start();
+		include_once('connect_db.php');
+		if(isset($_SESSION['manager_id']))
+		{
+			$id=$_SESSION['manager_id'];
+			$first_name=$_SESSION['first_name'];
+			$last_name=$_SESSION['last_name'];
+		}
+		else
+		{
+			header("location:http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/index.php");
+			exit();
+		}
+
+		if(isset($_GET['pharmacist_id']))
+		{
+			// DELETE PHARMACIST GETTING PHARMACIST ID FROM URL
+			$pharmacist_id=$_GET['pharmacist_id'];
+
+			$result = mysqli_query($con,"SELECT first_name, last_name FROM pharmacist where pharmacist_id=$pharmacist_id")or die(mysqli_error());
+			$row = mysqli_fetch_array($result);
+			$fname=$row['first_name'];
+			$lname=$row['last_name'];
+
+			
+			$sql="DELETE FROM pharmacist WHERE pharmacist_id='$pharmacist_id'";
+			
+			if(mysqli_query($con,$sql)) 
+			{
+				echo '<script type="text/javascript">
+						var f;        
+				 		f = "'.$fname.'";
+				 		var l;
+				 		l = "'.$lname.'";
+						alert("Pharmacist : \""+f+" "+l+"\" has been removed Successfully!"); 
+						window.location.href = "manager_pharmacist.php";
+					  </script>';
+			}
+			else
+			{
+				$error=mysqli_error($con);
+				echo '<script type="text/javascript">
+				 		var e;        
+				 		e = "'.$error.'";
+				 		alert("Deleting Pharmacist Failed, Try Again! \nERROR : "+e);
+				 		window.location.href = "manager_pharmacist.php";
+					  </script>';
+			}
+		}
+?>

@@ -1,0 +1,344 @@
+#pageborder
+{
+	position: fixed;
+	left: 6px;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	border: 2px solid black;
+}
+#invoice
+{
+	/*width: 21cm;
+    height: 30.5cm;*/
+    width: 794px;
+    height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#invoice #full
+{
+	float: left;
+	width: 794px;
+}
+#invoice #left
+{
+	float:left;
+	width: 10cm;
+}
+#invoice #right
+{
+	float: right;
+	width: 11cm;
+}	
+#invoice #l1
+{
+	float:left;
+	width: 12cm;
+}
+#invoice #r1
+{
+	float: right;
+	width: 9cm;
+}
+#invoice #l2
+{
+	float: left;
+	width: 6cm;
+}
+#invoice #c2
+{
+	float: left;
+	width: 6cm;
+}
+#invoice #r2
+{
+	float: left;
+	width: 9cm;
+}
+
+#header
+{
+	height: 3.4cm;
+	width: 794px;
+	border-bottom: black 2px solid;
+}
+#header #headerimg
+{
+	float: left;
+	height: 110px; 
+	width: 220px;
+	padding-top: 10px;
+}
+#header #shopname
+{
+	padding-top: 14px;
+	padding-bottom: 12px;
+	padding-right: 62px;
+	float: right;
+	font-size: 32px;
+	font-family: fangsong;
+}
+#header #address
+{
+	float: left;
+	padding-left: 70px;
+}
+#header #mobile
+{
+	float: left;
+	padding-top: 6px;
+}
+#header #tel
+{
+	float: right;
+	padding-top: 6px;
+	padding-right: 20px;
+}
+
+#title
+{
+	height: 0.9cm;
+	width: 794px;
+}
+#title #tit
+{
+	float: left;
+	font-size: 26px;
+	padding-top: 10px;
+	padding-left: 278px;
+	font-family: Helvetica;
+}
+
+#subtitle
+{
+	height: 0.8cm;
+	width: 794px;
+}
+#subtitle #sub
+{
+	float: left;
+	font-size: 20px;
+	padding-left: 275px;
+	padding-top: 3px;
+	font-family: sans-serif;
+}
+
+#invoice_no
+{
+	height: 0.6cm;
+	width: 794px;
+}
+
+#invoice_no #left #inv
+{
+	float: left;
+	padding-left: 15px;
+	padding-top: 7px;
+	font-size: 18px;
+}
+#invoice_no #right #date
+{
+	float: right;
+	padding-right: 20px;
+	padding-top: 7px;
+	font-size: 18px;
+}
+
+#cust_info
+{
+	height: 2.8cm;
+	width: 794px;
+}
+#cust_info #full #cust_inf
+{
+	float: left;
+	padding-left: 15px;
+	padding-top: 8px;
+	font-size: 18px;
+}
+#cust_info #left #cust_name
+{
+	float: left;
+	padding-left: 30px;
+	padding-top: 7px;
+	font-size: 18px;
+}
+#cust_info #right #cust_phone
+{
+	float: right;
+	padding-right: 30px;
+	padding-top: 7px;
+	font-size: 18px;
+}
+#cust_info #full #cust_address
+{
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 4px;
+	font-size: 18px;
+}
+
+#cash_info
+{
+	height: 1.5cm;
+	width: 794px;
+	border-bottom: 2px solid black;
+}
+#cash_info #full #cash_inf
+{
+	float: left;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-size: 18px;
+}
+#cash_info #left #cash_id
+{
+	float: left;
+	padding-left: 30px;
+	padding-top: 3px;
+	font-size: 18px;
+}
+#cash_info #right #cash_name
+{
+	float: right;
+	padding-right: 30px;
+	padding-top: 3px;
+	font-size: 18px;
+}
+
+#items_list
+{
+	height: 19.6cm;
+	width: 794px;
+}
+#items_list #full #items
+{
+	float: left;
+	font-size: 20px;
+	padding-left: 300px;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	font-family: sans-serif;
+}
+
+#items_list table, th, td
+{
+	border: 2px solid black;
+}
+#items_list table
+{
+	width: 72%;
+	border-collapse: collapse;
+}
+#items_list th,td
+{
+	height: 20px;
+	font-size: 19px;
+	vertical-align: middle;
+	padding: 10px;
+}
+#items_list td
+{
+	padding-left: 15px;
+}
+
+#items_list #l2 #it
+{
+	float: right;
+	padding-right: 12px;
+	padding-top: 17px;
+	font-size: 18px;
+}
+#items_list #c2 #qt
+{
+	float: left;
+	padding-left: 40px;
+	padding-top: 17px;
+	font-size: 18px;
+}
+#items_list #r2 #at
+{
+	float: left;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+#items_list #full #words
+{
+	float: left;
+	padding-left: 103px;
+	padding-top: 10px;
+	font-size: 19px;
+}
+
+#items_list #l1 #status
+{
+	float: left;
+	padding-left: 103px;
+	padding-top: 32px;
+	font-size: 19px;
+}
+#items_list #l1 #paidstamp
+{
+	float: right;
+	padding-right: 26px;
+	padding-top: 6px;
+	padding-bottom: 15px;
+}
+#items_list #r1 #type
+{
+	float: left;
+	padding-left: 12px;
+	padding-top: 32px;
+	padding-bottom: 37px;
+	font-size: 19px;
+}
+
+#items_list #full #doctor
+{
+	float: left;
+	padding-left: 30px;
+	padding-top: 24px;
+	font-size: 18px;
+}
+#items_list #full #terms
+{
+	float: left;
+	padding-left: 30px;
+	padding-top: 16px;
+	font-size: 19px;
+}
+#items_list #full #return
+{
+	float: left;
+	padding-left: 30px;
+	padding-top: 9px;
+	font-size: 19px;
+}
+#items_list #full #sign
+{
+	float: left;
+	padding-left: 84px;
+	padding-top: 25px;
+	font-size: 19px;
+}
+#items_list #full #quote
+{
+	float: left;
+	padding-left: 152px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 23px;
+	font-family: monospace;
+}
+
+#items_list #full #nomed
+{
+	float: left;
+	padding-left: 112px;
+	padding-top: 15px;
+	font-size: 19px;
+}

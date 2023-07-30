@@ -1,0 +1,202 @@
+body
+{
+	background: #ffe5e5;
+}
+
+#homepage
+{
+	height: 700px; 
+	width: 1200px;
+	color: #494768;
+	position: relative;
+	left: 168px;
+	right: 168px;
+}
+
+#header
+{
+	height: 110px;
+	width: 1200px;
+	background: #ff8c8c;
+	border-bottom: red 3px solid;
+	border-top: red 3px solid;
+	border-left: red 3px solid;
+	border-right: red 3px solid;
+}
+#headerlogo
+{
+	float: left;
+	height: 100px; 
+	width: 190px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+#header h1
+{
+	padding-top: 18px;
+	height: 100px;
+	width: 1090px;
+	color : #fcfcfc;
+	padding-left: 90px;
+}
+
+#header span
+{
+	background-color: white;
+	color: #0f7312; 
+}
+
+#mainarea
+{	
+	height: 530px;
+	width: 1200px;
+	background: #cfe2e8;
+	margin: 0px;
+	padding: 0px;
+	border-left: #1e90ff 3px solid;
+	border-right: #1e90ff 3px solid;
+}
+
+#sidebar
+{
+	float: left;
+	height: 530px;
+	width: 237px;
+	background: #cfe2e8;
+	margin: 0px;
+	padding: 0px;
+	border-right: #1e90ff 3px solid;
+}
+#sidebar a:first-child
+{
+	height: 117px;
+	background: #ffe8d4;
+	color: #300000;
+	font-weight: 600;
+	padding: 8px 3px 0px 0px;
+	margin-top: 2px;
+}
+#sidebar a:first-child:hover
+{
+	color: #fff4e0;
+  	background: #fc6868;
+}
+
+#sidebar a 
+{
+  	padding: 7px 10px 7px 15px;
+  	margin-left: 2px;
+  	margin-right: 2px;
+  	margin-bottom: 4px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	color: black;
+  	background: #ffc2a3;
+  	display: block;
+  	border-bottom: 3px solid #29284f;
+}
+
+#sidebar a:hover
+{
+  	color: white;
+  	background: #ff4545;
+}
+#sidebar .active
+{
+  	color: white;
+  	background: #ff4545;
+}
+
+#navbar
+{
+	float: right;
+	height: 37px;
+	width: 960px;
+	background: #fcdaca;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: red 3px solid;
+}
+#navbar a 
+{
+  	padding: 5px 5px 5px 5px;
+  	margin-top: 2px;
+  	margin-left: 7px;
+  	margin-right: 4px;
+  	text-decoration: none;
+  	font-size: 18px;
+  	color: black;
+  	display: inline-block;
+}
+
+#navbar a:hover
+{
+  	color: white;
+  	background: #fc6868;
+}
+#navbar .active
+{
+	color: white;
+  	background: #fc6868;
+}
+
+#mainbox
+{
+	float: right;
+	height: 490px;
+	width: 960px;
+	background: #ceeff0;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+#footer
+{
+	height: 60px;
+	width: 1200px;
+	text-align: center;
+	background: #ff8c8c;
+	border-bottom: red 3px solid;
+	border-top: red 3px solid;
+	border-left: red 3px solid;
+	border-right: red 3px solid;
+}
+
+#footer h3
+{
+	font-weight: 600;
+	color: #212123;
+}
+
+#datenow
+{
+	padding: 5px 3px 5px 3px;
+  	margin-top: 3px;
+  	margin-left: 18px;
+  	font-size: 19px;
+  	color: black;
+  	display: inline-flex;
+  	float: left;
+  	cursor: pointer;
+}
+#datenow:hover
+{
+	color: white;
+  	background: #fc6868;
+}
+#timenow
+{
+	padding: 5px 3px 5px 3px;
+  	margin-top: 3px;
+  	margin-left: 10px;
+  	font-size: 19px;
+  	color: black;
+  	display: inline-flex;
+  	float: left;
+  	cursor: pointer;
+}
+#timenow:hover
+{
+	color: white;
+  	background: #fc6868;
+}

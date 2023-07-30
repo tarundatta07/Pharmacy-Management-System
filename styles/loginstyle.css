@@ -1,0 +1,180 @@
+body
+{
+	background: #ffe5e5;
+}
+
+#loginpage
+{
+	height: 700px; 
+	width: 1200px;
+	color: #494768;
+	position: relative;
+	left: 168px;
+	right: 168px;
+}
+
+#header
+{
+	height: 110px;
+	width: 1200px;
+	background: #ff8c8c;
+	border-bottom: red 3px solid;
+	border-top: red 3px solid;
+	border-left: red 3px solid;
+	border-right: red 3px solid;
+}
+#headerlogo
+{
+	float: left;
+	height: 100px; 
+	width: 200px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+#header h1
+{
+	padding-top: 18px;
+	height: 100px;
+	width: 1090px;
+	color : #fcfcfc;
+}
+
+#header span
+{
+	background-color: white;
+	color: #0f7312; 
+}
+
+#login
+{	
+	height: 530px;
+	width: 1200px;
+	background: #cfe2e8;
+	margin: 0px;
+	padding: 0px;
+	border-left: #1e90ff 3px solid;
+	border-right: #1e90ff 3px solid;
+}
+
+.box
+{
+	width : 440px;
+	height: 500px;
+	padding-top: 30px;
+	background: linear-gradient(to bottom right, white, #fbeee6);
+	border-left: dimgray 2px solid;
+	border-right: dimgray 2px solid;
+}
+.box h2
+{
+	color: #383232;
+	font-weight: 600;
+}
+.box u
+{
+	padding-bottom: 5px;
+	text-decoration: none;
+	border-bottom: 3px solid #f56969;
+}
+.box input[type="text"],.box input[type="password"]
+{
+	border:0;
+	background:none;
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	outline: none;
+	color:black;
+	border-radius:24px;
+	transition: 0.25s;
+}
+
+.box #text
+{
+	width: 190px;
+}
+
+.box #pass
+{
+	width: 160px;
+}
+
+.box #text:focus
+{
+	width: 220px;
+	border-color: #f75;
+}
+.box #pass:focus
+{
+	width: 190px;
+	border-color: #f75;
+}
+
+.box #showpass
+{
+	cursor: pointer;
+}
+
+.box input[type="submit"]
+{
+	border:0;
+	background:none;
+	display:inline-block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline:none;
+	color:black;
+	border-radius:24px;
+	transition: 0.25s;
+	cursor:pointer;
+}
+
+.box input[type="submit"]:hover
+{
+	background-color: #98faae;
+}
+
+.box select
+{
+	text-align-last: center;
+	display: inline-block;
+	border: 2px solid #3498db;
+	outline: none;
+	background-color: #d9e6fe;
+	width:160px;
+	color: black;
+	border-radius:24px;
+	transition: 0.25s;	
+	height: 30px;
+	cursor: pointer;
+	transition: 0.25s;
+	font-size: 15px;
+}
+
+.box select:focus
+{
+	background-color: #d9e6fe;
+	border-color: #f75; 
+}
+
+#footer
+{
+	height: 60px;
+	width: 1200px;
+	text-align: center;
+	background: #ff8c8c;
+	border-bottom: red 3px solid;
+	border-top: red 3px solid;
+	border-left: red 3px solid;
+	border-right: red 3px solid;
+}
+
+#footer h3
+{
+	font-weight: 600;
+	color: #212123;
+}
